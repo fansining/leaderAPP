@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.page4.ItemView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    android:paddingTop="20dp"
+    android:paddingBottom="20dp"
+   >
+
+    <ImageView
+
+        android:id="@+id/portrait"
+        android:layout_width="48dip"
+        android:layout_height="48dip"
+        android:background="@drawable/user_icon" />
+
+    <View
+        android:layout_width="8dip"
+        android:layout_height="fill_parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/nick_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:textColor="#6699ff" />
+
+        <TextView
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="none"
+            android:textSize="16dp"
+            android:paddingBottom="5dip"
+            android:paddingTop="7dip" />
+
+        <com.example.page4.NineGridlayout
+            android:layout_marginTop="8dp"
+            android:id="@+id/iv_ngrid_layout"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent" />
+
+        <com.example.page4.CustomImageView
+            android:layout_marginTop="8dp"
+            android:id="@+id/iv_oneimage"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/created_at"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1小时前"
+                android:textSize="12dp"
+                android:textColor="#999999" />
+
+            <ImageButton
+                android:layout_marginTop="10dp"
+                android:id="@+id/more_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/comment"
+                android:focusable="true" />
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/zhan"
+            android:paddingTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:background="@color/colorCommentLayoutBg"
+            android:drawableLeft="@drawable/likeicon"
+            android:text=" 李静"
+            android:textColor="#6699ff"
+            android:visibility="gone"
+            />
+        <ImageView
+            android:id="@+id/line"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#d9d7d7"
+            android:visibility="gone"
+            />
+        <LinearLayout
+            android:id="@+id/comment_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/created_at"
+            android:background="@color/colorCommentLayoutBg"
+            android:orientation="vertical"
+            android:padding="5dp"
+            android:visibility="gone">
+
+        </LinearLayout>
+    </LinearLayout>
+</com.example.page4.ItemView>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">lvbao1</string>
+    <drawable name="clr_normal">#55ff</drawable>
+    <drawable name="clr_pressed">#6699ff</drawable>
+    <drawable name="clr_normal1">#ffffff</drawable>
+    <drawable name="clr_pressed1">#d9d8d8</drawable>
+    <drawable name="clr_normal2">#00cc00</drawable>
+    <drawable name="clr_pressed2">#e0000000</drawable>
+    <drawable name="clr_normal3">#ffffff</drawable>
+    <drawable name="clr_pressed3">#e0000000</drawable>
+
+</resources>

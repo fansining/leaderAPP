@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ArcMenu -->
+    <!-- 位置属性 -->
+    <attr name="position">
+        <enum name="left_top" value="0" />
+        <enum name="right_top" value="1" />
+        <enum name="right_bottom" value="2" />
+        <enum name="left_bottom" value="3" />
+    </attr>
+
+    <!-- 半径属性 -->
+    <attr name="radius" format="dimension">
+    </attr>
+
+    <declare-styleable name="ArcMenu">
+        <attr name="position" />
+        <attr name="radius"/>
+    </declare-styleable>
+
+
+    <!-- LineMenu -->
+    <!-- 展开方向 -->
+    <attr name="direction">
+        <enum name="turn_up" value="0"/>
+        <enum name="turn_down" value="1"/>
+        <enum name="turn_left" value="2"/>
+        <enum name="turn_right" value="3"/>
+    </attr>
+    <!-- 按钮位置 -->
+    <attr name="menupostion">
+        <enum name="left_top" value="0" />
+        <enum name="right_top" value="1" />
+        <enum name="right_bottom" value="2" />
+        <enum name="left_bottom" value="3" />
+    </attr>
+    <!-- 子菜单按钮间距 -->
+    <attr name="interval" format="dimension"/>
+
+    <declare-styleable name="LineMenu">
+        <attr name="direction"></attr>
+        <attr name="interval"></attr>
+        <attr name="menupostion"></attr>
+    </declare-styleable>
+
+
+    <!-- RoundMenu -->
+    <!-- 按钮位置 -->
+    <attr name="location">
+        <enum name="left_top" value="0" />
+        <enum name="right_top" value="1" />
+        <enum name="right_bottom" value="2" />
+        <enum name="left_bottom" value="3" />
+        <enum name="center" value="4"/>
+    </attr>
+    <!-- 半径属性 -->
+    <attr name="circleradius" format="dimension">
+    </attr>
+    <!-- 上边距 -->
+    <attr name="paddingTop" format="dimension">
+    </attr>
+    <!-- 下边距 -->
+    <attr name="paddingBottom" format="dimension">
+    </attr>
+    <!-- 左边距 -->
+    <attr name="paddingLeft" format="dimension">
+    </attr>
+    <!-- 右边距 -->
+    <attr name="paddingRight" format="dimension">
+    </attr>
+    <declare-styleable name="RoundMenu">
+        <attr name="location"></attr>
+        <attr name="circleradius"></attr>
+        <attr name="paddingTop"></attr>
+        <attr name="paddingBottom"></attr>
+        <attr name="paddingLeft"></attr>
+        <attr name="paddingRight"></attr>
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/myScrollView"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00CC00"
+    xmlns:zero="http://schemas.android.com/apk/res-auto">
+
+        <com.baidu.mapapi.map.MapView
+            android:id="@+id/mapView"
+            android:layout_marginBottom="60dp"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:clickable="true" />
+
+    <FrameLayout
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+    <ImageView
+    android:id="@+id/jingdian"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/zhoubian1"
+    />
+        <ImageView
+            android:id="@+id/jiudian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/zhoubian2"
+            />
+        <ImageView
+            android:id="@+id/canguan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/zhoubian3"
+            />
+        <ImageView
+            android:id="@+id/gouwu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/zhoubian4"
+            />
+        <ImageView
+            android:id="@+id/wanle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/zhoubian5"
+            />
+        <ImageView
+            android:id="@+id/zhoubian"
+            android:layout_marginLeft="00dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/animback"
+            />
+</FrameLayout>
+
+
+
+
+
+    <FrameLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <com.example.wangdan.lvbao.ArcMenu
+        android:id="@+id/arcmenu"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        zero:position="right_top"
+
+        >
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+            <ImageView
+                android:id="@+id/id_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@mipmap/bool"/>
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/putong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@mipmap/weixing1_03"
+            android:tag="Camera"/>
+
+        <ImageView
+            android:id="@+id/wexing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@mipmap/weixin_03"
+            android:tag="Sun"/>
+
+        <ImageView
+            android:id="@+id/luopan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@mipmap/weixing2_03"
+            android:tag="Place"/>
+
+        <ImageView
+            android:id="@+id/lukuang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@mipmap/weixing3_03"
+            android:tag="Sleep"/>
+
+
+        <ImageView
+            android:id="@+id/reli"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@mipmap/weixing4_03"
+            android:layout_gravity="center" />
+
+
+
+        <ImageView
+            android:id="@+id/dingwei"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@mipmap/weixing5_03"
+            />
+        <ImageView
+            android:background="@drawable/login_button_selector"
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/daohang"
+            />
+
+
+    </com.example.wangdan.lvbao.ArcMenu>
+
+
+    </FrameLayout>
+</RelativeLayout>

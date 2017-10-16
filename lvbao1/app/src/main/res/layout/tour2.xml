@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:orientation="horizontal"
+            android:background="#ffcccc"
+            android:gravity="center_vertical"
+            >
+
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/ic_menu_back"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="110dp"
+                android:textColor="#ffffff"
+                android:text="精彩游记"
+                android:textSize="17dp"
+                />
+            <ImageView
+                android:id="@+id/save"
+                android:layout_marginLeft="60dp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/off"
+                />
+            <ImageView
+                android:id="@+id/share"
+                android:layout_marginLeft="10dp"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/ic_menu_set_as"
+                />
+        </LinearLayout>
+        <com.example.page2.GoTopScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/myScrollView"
+            android:background="#ffffff"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center_horizontal"
+                >
+                <ImageView
+                    android:layout_marginTop="0dp"
+                    android:id="@+id/lvyou1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/lvyou2"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    />
+
+
+                <TextView
+                    android:layout_margin="10dp"
+                    android:id="@+id/text1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="     Montmartre，是一个到处都有传说的地方。 它是最有包容性的巴黎十八区，这里有圣洁的教堂，艺术的广场和闪烁的霓虹，这里包容了宗教、艺术和香艳，却毫无违和感。 如果你没有来过蒙马特，那么你就没有见识过真正的巴黎。"
+                    android:textSize="15dp"
+                    />
+                <TextView
+                    android:textSize="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="     五月的巴黎，夏意盎然。老爷爷太可爱了，那天的我们，还都穿着厚实的春装...… "
+                    android:layout_margin="10dp"
+                    />
+                <TextView
+                    android:textSize="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="     蒙马特高地是巴黎的制高点。树木花草都散发着清香的自然气息。 "
+                    android:layout_margin="10dp"
+                    />
+
+                <ImageView
+                    android:layout_margin="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/tour32"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:text="     通往圣心教堂有很多条路径，为了欣赏公园里的美景，我们选择了陡峭的石板路。从公园穿过，也是到达教堂最近的步行路线。"
+                    android:layout_margin="10dp"
+                    />
+                <ImageView
+                    android:layout_margin="10dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/tour31"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:text="     Basilique du Sacré Coeur，圣心教堂，是虔诚的信徒捐助建成的。教堂风格既似罗马式，又似拜占庭式，大圆顶四周的四个小圆顶颇具东方情调。 "
+                    android:layout_margin="10dp"
+                    />
+                <ImageView
+                    android:layout_margin="10dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/tour33"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:text="     模仿雕像的街头艺人，烈日下纹丝不动，真的很不容易。"
+                    android:layout_margin="10dp"
+                    />
+                <ImageView
+                    android:layout_margin="10dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/tour34"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:text="     教堂内部有多幅巨幅的马赛克镶嵌画。金碧辉煌的耶稣圣像是世界上最高的巨幅马赛克画。 "
+                    android:layout_margin="10dp"
+                    />
+                <ImageView
+                    android:layout_margin="10dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/tour35"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:text="     参观完圣心教堂，步行三分钟就到达了小丘广场。小丘广场，又称画家村，是蒙马特最有艺术魅力的地方，面积仅有四五个篮球场的大小，但是这里聚集了140多位画家。"
+                    android:layout_margin="10dp"
+                    />
+                <ImageView
+                    android:layout_margin="10dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/tour36"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:layout_margin="10dp"
+                    android:text="      著名的香艳帝都，红磨坊。" />
+
+                <ImageView
+                    android:layout_margin="10dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/tour37"
+                    />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:text="     每一个来到此处的人，都会带着遗憾，枉然地拉一拉他的手指。"
+                    android:layout_margin="10dp"
+                    />
+                <ImageView
+                    android:layout_margin="10dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/tour38"
+                    />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:text="     写在小酒馆墙上的四个词: aimer, manger, boire, chanter。涵盖了人生的意义和乐趣：相爱与美食，饮酒与歌唱。"
+                    android:layout_margin="10dp"
+                    />
+                <ImageView
+                    android:layout_margin="10dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/tour39"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:text="     五月的巴黎，直到晚上八点还没有日落。蒙马特之行，让我看到了巴黎最接地气、最生活一面。徜徉在羊肠小道，我们感受着传说中讲述的巴黎，真实又动人。虽然在计划中的巴黎爱墙没来得及去，但是留有一点点遗憾并非不是完美。巴黎，我还会再回来的……"
+                    android:layout_margin="10dp"
+                    />
+
+            </LinearLayout>
+        </com.example.page2.GoTopScrollView>
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/top"
+        android:background="#00000000"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@drawable/return_top"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="300dp"
+        android:visibility="gone"
+        />
+</FrameLayout>

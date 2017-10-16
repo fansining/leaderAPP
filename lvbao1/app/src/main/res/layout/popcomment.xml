@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:id="@+id/comment_view"
+    android:background="#dde2e9"
+    >
+
+    <EditText
+        android:id="@+id/edit"
+        android:background="@null"
+        android:layout_width="fill_parent"
+        android:layout_height = "wrap_content"
+
+        android:hint = "    说点什么呢?"
+        android:textSize="15dip"
+        android:layout_weight="1"
+        />
+
+    <Button
+        android:background="#48d446"
+        android:id="@+id/submit"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft ="true"
+        android:text="发送"/>
+</LinearLayout>

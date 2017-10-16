@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:orientation="horizontal"
+            android:background="#ffcccc"
+            android:gravity="center_vertical"
+            >
+
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/ic_menu_back"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="110dp"
+                android:textColor="#ffffff"
+                android:text="精彩游记"
+                android:textSize="17dp"
+                />
+            <ImageView
+                android:id="@+id/save"
+                android:layout_marginLeft="60dp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/off"
+                />
+            <ImageView
+                android:id="@+id/share"
+                android:layout_marginLeft="10dp"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/ic_menu_set_as"
+                />
+        </LinearLayout>
+        <com.example.page2.GoTopScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/myScrollView"
+            android:background="#ffffff"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center_horizontal"
+                >
+                <ImageView
+                    android:layout_marginTop="0dp"
+                    android:id="@+id/lvyou1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/lvyou6"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    />
+
+
+                <TextView
+                    android:layout_margin="10dp"
+                    android:id="@+id/text1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="     从小轿车停车场做电梯上2层，顺着桥往前走就到迪士尼的安检口了。
+　　天气超级好，以至于被太阳独宠，晒死我了！据说前一天上海下暴雨地铁地下通道都淹了，去迪士尼隔天上海又下雨了……我们运气太好了！"
+                    android:textSize="15dp"
+                    />
+
+
+                <ImageView
+                    android:layout_margin="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/tour71"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:text="     安检排队比较慢，每一个包工作人员都要开包检查，安检进去以后往前走就是检票口，网上购得票，出示身份证工作人员在电脑上扫描一下，就会打印出门票给你了，再扫一下门票你就进去啦！进入园区以后你就会看到这个钟楼了~通过这个钟楼拱门，本宝宝就来到了童话世界！"
+                    android:layout_margin="10dp"
+                    />
+                <ImageView
+                    android:layout_margin="10dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/tour72"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:text="     再往前走会经过雷鸣山漂流，去的时候还没开，后来一直开开关关，所以放弃了没有玩。穿过冒险岛，就来到了宝藏湾！我最爱的加勒比海盗主题园区！"
+                    android:layout_margin="10dp"
+                    />
+                <ImageView
+                    android:layout_margin="10dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/tour73"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:text="     因为提前知道吃的很贵，所以自备了干粮，排队的时候就解决了午餐。【没有打开的瓶装水和密封包装的食物是可以带进去的。如果是一家子去的话，可以带一个装水的大空瓶进去到园区里面打水。迪士尼洗手间基本上都有接饮用水的地方，所以喝完的矿泉水瓶千万别丢哦！园区里矿泉水一瓶￥10。"
+                    android:layout_margin="10dp"
+                    />
+                <ImageView
+                    android:layout_margin="10dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/tour74"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:text="   每个时间点会有公主在这里和游客合照，好多家长带着小朋友排队呢~我就在旁边默默拍几张~"
+                    android:layout_margin="10dp"
+                    />
+                <ImageView
+                    android:layout_margin="10dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/tour75"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:text="     红皇后的后花园~没有疯帽子！
+　　不开心￣へ￣"  android:layout_margin="10dp"
+                    />
+                <ImageView
+                    android:layout_margin="10dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/tour76"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:layout_margin="10dp"
+                    android:text="      返回宝藏湾看演出，偶遇杰克船长！当即就像冲过去合照，结果工作人员说杰克船长要给船员开会了，不排队了(；′⌒`)"
+/>
+                <ImageView
+                    android:layout_margin="10dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/tour77"
+                    />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:text="    漫游通话时光！虽然不咋地，但是一定要玩，毕竟这个是唯一进入城堡的方式。城堡里面很漂亮！"
+                    android:layout_margin="10dp"
+                    />
+                <ImageView
+                    android:layout_margin="10dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/tour78"
+                    />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:text="     夕阳下的迪士尼城堡~"
+                    android:layout_margin="10dp"
+                    />
+                <ImageView
+                    android:layout_margin="10dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/tour79"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:text="     　烟火秀开始啦！超级棒！20分钟把迪士尼经典动画融合在一起！感觉光看这个秀就值回票价了！"
+                    android:layout_margin="10dp"
+                    />
+                <ImageView
+                    android:layout_margin="10dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/tour80"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:text="         烟火秀结束！晚上21:00了，人群陆续往园区外面走了~愉快的一天就结束啦！
+　　迪士尼拜拜~我还会再来！一天12个小时走了快30000步，腿已残……脚已废……"
+                    android:layout_margin="10dp"
+                    />
+                <ImageView
+                android:layout_margin="10dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/tour800"
+                />
+            </LinearLayout>
+        </com.example.page2.GoTopScrollView>
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/top"
+        android:background="#00000000"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@drawable/return_top"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="300dp"
+        android:visibility="gone"
+        />
+</FrameLayout>

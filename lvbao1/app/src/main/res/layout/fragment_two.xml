@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ded7d7"
+    android:orientation="vertical"
+    >
+
+      <TextView
+          android:background="#9966cc"
+          android:layout_width="match_parent"
+          android:layout_height="55dp"
+          android:gravity="center_horizontal|center_vertical"
+          android:textColor="#ffffff"
+          android:text="每日精选"
+          android:textSize="17dp"
+          />
+    <android.support.v4.widget.NestedScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/myScrollView"
+        android:background="#eeeeee"
+        >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#90d6b9ec"
+    android:gravity="center_horizontal"
+    >
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:id="@+id/lvyou1"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/lvyou1"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            />
+
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:id="@+id/lvyou2"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/lvyou2"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            />
+
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:id="@+id/lvyou3"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/lvyou3"
+            />
+
+        <ImageView
+            android:id="@+id/lvyou4"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:layout_marginTop="20dp"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/lvyou4"
+            />
+
+        <ImageView
+            android:id="@+id/lvyou5"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:layout_marginTop="20dp"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/lvyou5"
+            />
+
+        <ImageView
+            android:id="@+id/lvyou6"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:layout_marginTop="20dp"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/lvyou6"
+            />
+
+</LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</LinearLayout>

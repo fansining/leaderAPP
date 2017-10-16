@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+
+        >
+    <Button
+    android:id="@+id/button1"
+    android:layout_width="match_parent"
+    android:layout_height="55dp"
+        android:text="从本地相册选择"
+
+    />
+
+    <Button
+        android:layout_marginTop="55dp"
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="拍照"
+        />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_marginTop="110dp"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="取消"
+        />
+    </RelativeLayout>
+</RelativeLayout>

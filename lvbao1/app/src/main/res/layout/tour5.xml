@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:orientation="horizontal"
+            android:background="#ffcccc"
+            android:gravity="center_vertical"
+            >
+
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/ic_menu_back"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="110dp"
+                android:textColor="#ffffff"
+                android:text="精彩游记"
+                android:textSize="17dp"
+                />
+            <ImageView
+                android:id="@+id/save"
+                android:layout_marginLeft="60dp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/off"
+                />
+            <ImageView
+                android:id="@+id/share"
+                android:layout_marginLeft="10dp"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/ic_menu_set_as"
+                />
+        </LinearLayout>
+        <com.example.page2.GoTopScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/myScrollView"
+            android:background="#ffffff"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center_horizontal"
+                >
+                <ImageView
+                    android:layout_marginTop="0dp"
+                    android:id="@+id/lvyou1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/lvyou5"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    />
+
+
+                <TextView
+                    android:layout_margin="10dp"
+                    android:id="@+id/text1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="     老旧建筑，就像美酒越陈越香。
+早年，厦门不少长年海外奔波的富商回归故里，把外地的建筑形式风格带回厦门各处，兴建起糅合洋房典丽精细风格与闽南闲逸之气的一栋栋房舍。
+如今，在厦门各区巷弄里，上百年的欧式老房子仍随处可见。
+房屋虽老，但通过有心人的改建活化，成为了民宿、咖啡店、旧物藏馆，杂货小铺……
+在岁月的骨架中注入新灵魂，留给造访的旅人一个今昔对话的机会。 "
+                    android:textSize="15dp"
+                    />
+                <TextView
+                    android:textSize="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="    厦门是美丽的海滨城市，何不趁着阳光明媚的夏日，尽情拥抱迷人海岸？租上自行车来个想念已久沿着海边木栈道的环岛路骑行，投奔夏日迷人海岸，三三两两，吹海风，尝海水，拥大海，踩沙踏浪，尽情呼吸，把一切烦恼、疲倦和困惑抖落在容纳百川的大海里。"
+                    android:layout_margin="10dp"
+                    />
+
+
+                <ImageView
+                    android:layout_margin="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/tour61"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:text="     沿着海边木栈道骑行，一会儿工夫就到了热闹非凡的曾厝垵文艺村，欣赏两旁的红砖古厝和具南洋风格的“番仔楼”特色建筑，到曾家祠堂咖啡吧品尝茶点，品尝出名自制雪糕，都可感受到小村庄惬意的生活步伐。"
+                    android:layout_margin="10dp"
+                    />
+                <ImageView
+                    android:layout_margin="10dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/tour62"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:text="     前往被人遗忘的避风港沙坡尾，是厦门城市的摇篮，有着厦门人儿时记忆，如今是文青们喜欢的地方。 朝阳升起，开阔的海面上，停靠着六七十艘渔船。窄窄的石板路上，已排开一盆盆鲜活的章鱼、青斑、皮皮虾，皮肤黝黑的女人们与漫步至此的顾客讲价。旁边，他们的男人清理着渔网，这里是沙坡尾。 "
+                    android:layout_margin="10dp"
+                    />
+                <ImageView
+                    android:layout_margin="10dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/tour63"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:text="     拜访叙利亚手艺人的餐厅和不辍旧物馆馆长，尝一顿满足的早餐，感受晨光的美好。叙利亚手艺人开设早餐餐厅，叙利亚的早餐尤其丰盛，饭桌上能有十几样食物，面包、酸奶、橄榄油是必须的，仿佛来到惬意舒适的叙利亚小城。到了不辍旧物馆，欣赏馆长收藏的老物件珍品。遇到馆长，还会跟我们分享他珍惜旧物"
+                    android:layout_margin="10dp"
+                    />
+                <ImageView
+                    android:layout_margin="10dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/tour64"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:text="    前往厦门欧式老洋房聚集的区域华新路，文艺彻骨，欣赏沿途古色古香的建筑。 许多人都不会想到厦门岛上还有这么一片安静的老别墅区，这里是厦门最诗意的角落。 在这个文艺的地方，猫咪慵懒地趴在门口晒着太阳，花草点缀着大隐于市的小路，咖啡香气飘荡在老别墅上空...... 漫步华新路，度过一段最惬意的时   "
+                    android:layout_margin="10dp"
+                    />
+                <ImageView
+                    android:layout_margin="10dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/tour65"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:text="     华新路走一段就有一个转角，转角有时候能给你带来惊喜。蜿蜒向上的老街，一路郁郁葱葱，中国最美的书店就不经意般地藏身于此。 不在书店既是书店也是花店，还有咖啡、甜点、饼干以及美味的简餐。 "
+                    android:layout_margin="10dp"
+                    />
+                <ImageView
+                    android:layout_margin="10dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/tour66"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:layout_margin="10dp"
+                    android:text="      光顾32how品尝咖啡，欣赏这栋法式别墅的建筑艺术之美。店内共有24 种来自不同地方的咖啡豆，包括最顶级的牙买加蓝山、夏威夷可娜、玻利维亚、坦桑尼亚及爪哇等，每一款都有不同的独特味道。店员要经过半年训练才能负责冲咖啡，现场向我们详细解释，上一堂咖啡入门课，非常窝心。"
+                    />
+
+                <ImageView
+                    android:layout_margin="10dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/tour67"
+                    />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:text="     午后前往思明南路著名杂货藏品店铺，由店主或店员介绍其藏品，如数家珍，可把喜欢的工艺品带回家。 虽然/一切都在向前/我们却心甘情愿地去走一条回头路——吉治百货寄语。 吉治百货，岁月百货寻回忆。 在精致的老建筑里有见证历史的阿吉仔饼铺、复古厦门、几十种花式老花砖、乌龙茶室等"
+                    android:layout_margin="10dp"
+                    />
+                <ImageView
+                    android:layout_margin="10dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/tour68"
+                    />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:text="     刚到鼓浪屿的感觉很不好，阴雨天还感冒身寒乏力，只好待在酒店里休息。 幸好住到了一间宁静又柔和舒适的百年古堡酒店，在开着暖气的房间喝着姜茶，真的太舒服了！ 店员服务非常周到，帮我拿行李，帮我们切好水果拼盘，还有沙拉酱，隔天早上睡醒后吃一顿美味早餐。 贴心"
+                    android:layout_margin="10dp"
+                    />
+                <ImageView
+                    android:layout_margin="10dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/tour69"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:text="     在旅舍享用早餐后，趁着游人未至，漫步宁静的鼓浪屿。 初到鼓浪屿会发现游人如织，但只要走进岛内僻静处，才发现其美好。在导游带领下走进鼓浪屿岛内街道、毓园，听别墅的前世今生。厦门特色的美食，叶氏麻糍，赵小姐的店，张三疯奶茶，阿呆少爷，黄胜记肉蒲，龙头路"
+                    android:layout_margin="10dp"
+                    />
+                <ImageView
+                    android:layout_margin="10dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/tour70"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:text="        就这样，最后搭乘渡轮返回市区，结束文艺厦门之旅。厦门，我们下次再见。"
+                    android:layout_margin="10dp"
+                    />
+            </LinearLayout>
+        </com.example.page2.GoTopScrollView>
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/top"
+        android:background="#00000000"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@drawable/return_top"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="300dp"
+        android:visibility="gone"
+        />
+</FrameLayout>

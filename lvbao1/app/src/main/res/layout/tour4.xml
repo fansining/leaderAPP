@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:orientation="horizontal"
+            android:background="#ffcccc"
+            android:gravity="center_vertical"
+            >
+
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/ic_menu_back"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="110dp"
+                android:textColor="#ffffff"
+                android:text="精彩游记"
+                android:textSize="17dp"
+                />
+            <ImageView
+                android:id="@+id/save"
+                android:layout_marginLeft="60dp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/off"
+                />
+            <ImageView
+                android:id="@+id/share"
+                android:layout_marginLeft="10dp"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/ic_menu_set_as"
+                />
+        </LinearLayout>
+        <com.example.page2.GoTopScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/myScrollView"
+            android:background="#ffffff"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center_horizontal"
+                >
+                <ImageView
+                    android:layout_marginTop="0dp"
+                    android:id="@+id/lvyou1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/lvyou4"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    />
+
+
+                <TextView
+                    android:layout_margin="10dp"
+                    android:id="@+id/text1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="     去过几次泰国又刚从长崎回来不到一个月，压根儿没想到这次还会去泰国。看到女儿在朋友圈发尾单消息的时候已是下午临近4点，极速处理完手头上的事情，带上笔记本电脑四个小时后已在去往杭州机场路上，史上最没计划最高效的一次出行。"
+                    android:textSize="15dp"
+                    />
+                <TextView
+                    android:textSize="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="     临近中午，直奔玉叶大厦78层品尝日式韩式泰式自助餐。回想起去年和欢妈途径新加坡，为免费探访滨海湾金沙酒店56层空中花园，缩头缩脑心底发虚的情形。 "
+                    android:layout_margin="10dp"
+                    />
+
+
+                <ImageView
+                    android:layout_margin="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/tour51"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    />
+                <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="     第一站，安南达皇家御会馆，即泰国旧国会大厦，原来作为泰国皇室接待宴请外宾的场所，现在则作为皇室艺术品的收藏所。"
+                android:layout_margin="10dp"
+                />
+                <ImageView
+                    android:layout_margin="10dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/tour52"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:text="      给我们做讲解的导游，是位有点矮胖的泰国女孩，长相一般，但声音甜美，热情耐心，从头到尾一刻不停地讲解每一件珍品的制作年份，工时，材质，以及相关背景和传说，非常专业。
+
+结束的时候，这位泰国女孩祝大家在接下来的行程开心快乐，说 “这个世上上没有幸福的地方也没有幸福的人，只有开心的心” 并用双手拼成心形配合着放在右胸前，感动到哭！"
+                    android:layout_margin="10dp"
+                    />
+                <ImageView
+                    android:layout_margin="10dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/tour53"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:text="     大皇宫位于曼谷市中心区，由一组布局错落的建筑群组成，汇集了绘画、雕刻和装怖艺术的精华。
+曼谷王朝开国君主拉玛一世登基后，于1782年把首都从吞武里迁至湄南河东岸的曼谷，经历代不断扩建，终于建成规模宏大的大皇宫建筑群。大皇宫是泰国诸多王宫之一，是历代王宫保存最完美、规模最大、最有民族特色的王官，现仅用于举行加冕典礼、宫廷庆祝等仪式。曼谷王朝从拉玛一世到拉玛八世，均居于大皇宫内。1946年拉玛八世在宫中被刺之后，拉玛九世便搬至新宫居住。 "
+                    android:layout_margin="10dp"
+                    />
+                <ImageView
+                    android:layout_margin="10dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/tour54"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:text="     去热带水果园的时候，蓝天白云得不像话。但正午时分，阳光直射，拍人像就会黑脸。水果园并不大，被树上的一个巨型假芒果骗到。
+水果园提供了十来种水果给大家品尝，榴莲，红毛丹，山竹，菠萝，迷你香蕉，木瓜，火龙果，哈密瓜，蜜柚。。。11个人围在一张大桌子前免费畅吃，互相谦让其乐融融。"
+                    android:layout_margin="10dp"
+                    />
+                <ImageView
+                    android:layout_margin="10dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/tour55"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:text="    OLOSSEUM的人妖表演美轮美奂，堪称视觉盛宴！这些比女人还漂亮妩媚的男人穿着华丽的服饰，在梦幻的灯光和悦耳的音乐中演绎世界各地的经典歌舞，听到 “玫瑰玫瑰我爱你”，“辣妹子辣” 等熟悉的旋律时，忍不住一阵兴奋和激动，当看到身穿龙凤锦袍的武媚娘和一群没有五官的兵马俑出场时，被现场壮观的气势所惊到。一个小时的表演，过得相当快。"
+                    android:layout_margin="10dp"
+                    />
+                <ImageView
+                    android:layout_margin="10dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/tour56"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:text="     全天行程：金殿寺 ，沙美岛 ，东芭东园民俗文化，大象表演 ，泰式按摩
+金殿寺游客摩肩接踵，四季香火鼎盛。据说那里的四面佛很灵验，四面分别代表健康、事业、婚姻、财富。
+大家按照当地导游阿诺的指点，在入口处用20泰铢换好一束香和一个鲜花花环，依次点香拜佛，并把花环放在最寄予希望的那一面。 "
+                    android:layout_margin="10dp"
+                    />
+                <ImageView
+                    android:layout_margin="10dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/tour57"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:layout_margin="10dp"
+                    android:text="      到达沙美岛渡轮码头的时候，狂风大作暴雨倾盆，我们被告知轮渡停运无法去沙美岛了！阿珠和林妹妹一脸茫然无奈，只得和各自的上司联系，处理这一突发状况并征求大家的意见改其他行程。90后小杨眼见心心念念的潜水项目要化为泡影，带着哭腔说 “我不干！”"
+                    />
+                <ImageView
+                    android:layout_margin="10dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/tour58"
+                    />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:text="     接着去东芭乐园。
+东芭乐园又名侬律花园，占地1600余亩，是一个集泰国各式园林艺术家创作精华于一身的休闲兼度假公园。园内的节目主要有泰国的民俗表演、大象表演和参观植物园三大部分。
+民俗歌舞的表演者据说都是村寨中人，动作朴质。配合中文字幕的解说很容易看懂表演的内容。 "
+                    android:layout_margin="10dp"
+                    />
+                <ImageView
+                    android:layout_margin="10dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/tour59"
+                    />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:text="     富贵黄金屋是泰国芭堤雅的一个真正富丽堂皇的风水宝地，由泰国华人富豪谢国民花重金14亿泰铢建造的一个私家庄园。"
+                    android:layout_margin="10dp"
+                    />
+                <ImageView
+                    android:layout_margin="10dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/tour60"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:text="     下飞机的时候，老蒋委托了两位战士来接机，为本次出游画上完美句号，必须mark 一下。"
+                    android:layout_margin="10dp"
+                    />
+
+            </LinearLayout>
+        </com.example.page2.GoTopScrollView>
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/top"
+        android:background="#00000000"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@drawable/return_top"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="300dp"
+        android:visibility="gone"
+        />
+</FrameLayout>

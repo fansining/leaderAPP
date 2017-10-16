@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="55dp"
+    android:orientation="horizontal"
+    android:background="#ffcccc"
+    android:gravity="center_vertical"
+    >
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@drawable/ic_menu_back"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="110dp"
+        android:textColor="#ffffff"
+        android:text="精彩游记"
+        android:textSize="17dp"
+        />
+    <ImageView
+        android:id="@+id/save"
+        android:layout_marginLeft="60dp"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/off"
+        />
+    <ImageView
+        android:id="@+id/share"
+        android:layout_marginLeft="10dp"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@drawable/ic_menu_set_as"
+        />
+</LinearLayout>
+    <com.example.page2.GoTopScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/myScrollView"
+        android:background="#ffffff"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            >
+            <ImageView
+                android:layout_marginTop="0dp"
+                android:id="@+id/lvyou1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/lvyou1"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                />
+
+
+            <TextView
+                android:layout_margin="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="     这是一场等待了许久的梦。高考那年准备把它当作毕业的礼物，当时遇上西藏打砸抢烧事件，无奈作罢。之后离开家，一走就是八年。 "
+                android:textSize="15dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="     铁轨边直长的青藏公路上，几辆大货车与我们并驾齐驱。天气变幻无穷，大块的云朵肆无忌惮地左右扫荡。忽近忽远的红土地，淡淡地擦着几抹鹅黄或是草绿。车厢内几个身材高大的女子，眼窝较深，高高的颧骨透着健康的高原红。大多身着碎花衣服，简单地将头发扎起。有时看见列车窗外铁路工作人员十几人站成一排或单个的热情地招手。青藏公路上最常见的还有军车皮卡，几十辆训练有素地匀速行驶,还总能保持恰当的间隙。综合之后的见闻，不得不说这次西藏之行让我切身感受到了军队的气息。"
+                android:textSize="15dp"
+                android:layout_margin="10dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="     12:50 错那湖 那蓝色不带一丝忧郁，却有一种不失活泼的静谧。白云散开，让一片湛蓝的天空，在湖中留下倒影。我开始明白为什么美丽的女子常被用来形容湖泊，她只顾美丽地坐在那里，不动声色地勾魂摄魄。"
+                android:textSize="15dp"
+                android:layout_margin="10dp"
+                />
+
+            <ImageView
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/tour1"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="     下午六点抵达拉萨，住在赤江拉让藏式宾馆。这个酒店我们都很喜欢，店员总是挂着灿烂温暖的微笑，几个看起来略显瘦弱的女子拎起我们的行李上楼时却是健步如飞。"
+                android:layout_margin="10dp"
+                />
+            <ImageView
+                android:layout_margin="10dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/tour2"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="     整栋宅子是昔日活佛的居所，家具都是藏式风格。房间有加湿器，对于西藏的干燥有帮助。"
+                android:layout_margin="10dp"
+                />
+            <ImageView
+                android:layout_margin="10dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/tour3"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="     是雨夜，仍忍不住出门走走。出门约三分钟便抵达了大昭寺。灯火辉煌而人来人往的街道并无嘈杂，耳边响起的总是诵念经文的低语和朝拜者与地面的摩擦。街道中间朝拜者抹去了街道上雨水的痕迹，我站在那里仿佛又不在那里，想把深深的感动献给着匍匐的虔诚。可是那里并不需要看客。"
+                android:layout_margin="10dp"
+                />
+            <ImageView
+                android:layout_margin="10dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/tour4"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="     朝拜者大都为年轻人，也有许多僧人和老者诵经并快步走着。路上还看到朝拜的一家人，把明黄色蛇皮袋略作剪裁制成雨衣，我却不合时宜地想起了Mellow Yellow。朝圣是一条没有终点的路，路上的人都坚定不移，把身体融入大地。"
+                android:layout_margin="10dp"
+                />
+            <ImageView
+                android:layout_margin="10dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/tour5"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="     早上起床后坐公交来到布达拉宫预约第二天的门票。拉萨人很热情、友善，问路时都尽力解答。安排排队预约门票的大叔很有意思，戴着一副黑框眼镜。前边一小哥到了之后说：我要预约25号的。大叔一句：好不容易排到门口了，不抓住机会，那你24号再来吧！惹得排队的人哈哈大笑。"
+                android:layout_margin="10dp"
+                />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="     下午，天空开始放晴，去大昭寺的路显得更加气势浩荡。白天的朝拜者不如晚上多，而大都在祈求布施。听说是藏历闰月，巧遇闰月闰“穷人节”，这个月人们可以合法地在街道乞讨与布施。我很欣赏这里人的施予，钱塞到对方的手中，从不缺眼神或语言的交流，仿佛那是一种理解的支持，而不单单是同情的施予。"
+                android:layout_margin="10dp"
+                />
+            <ImageView
+                android:layout_margin="10dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/tour7"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="     终于来到“西藏的眼睛”大昭寺。室内有那名震四方的释迦牟尼12岁等身像。在过去的2600年间，高僧不停地往他身上涂抹金粉，于是造就了今日他壮实的身躯。说起来很神奇，以前去过寺庙都不曾有过这般内心的感动，仿佛被信仰的力量撼动了。寺庙里的捐赠大都是五角或一元的纸币，如果没带零钱可以自己找零。"
+                android:layout_margin="10dp"
+                />
+            <ImageView
+                android:layout_margin="10dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/tour8"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="     天蓝的时候，拍照技术层面也变的次要了。"
+                android:layout_margin="10dp"
+                />
+
+
+
+
+
+        </LinearLayout>
+
+    </com.example.page2.GoTopScrollView>
+</LinearLayout>
+    <ImageView
+        android:id="@+id/top"
+        android:background="#00000000"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@drawable/return_top"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="300dp"
+        android:visibility="gone"
+        />
+</FrameLayout>

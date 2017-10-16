@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:orientation="horizontal"
+            android:background="#ffcccc"
+            android:gravity="center_vertical"
+            >
+
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/ic_menu_back"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="110dp"
+                android:textColor="#ffffff"
+                android:text="精彩游记"
+                android:textSize="17dp"
+                />
+            <ImageView
+                android:id="@+id/save"
+                android:layout_marginLeft="60dp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/off"
+                />
+            <ImageView
+                android:id="@+id/share"
+                android:layout_marginLeft="10dp"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/ic_menu_set_as"
+                />
+        </LinearLayout>
+        <com.example.page2.GoTopScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/myScrollView"
+            android:background="#ffffff"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center_horizontal"
+                >
+                <ImageView
+                    android:layout_marginTop="0dp"
+                    android:id="@+id/lvyou1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/lvyou3"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    />
+
+
+                <TextView
+                    android:layout_margin="10dp"
+                    android:id="@+id/text1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="     第一站本来想先去白金汉宫看十一点半的换岗仪式的，但是因为出关用了太久赶不上了，所以就索性直接来看大本钟了，正好和威斯敏斯特教堂啊唐宁街啊好几个景点挨着。大本钟是国会大厦的一部分，建于1859年，是世界第三高的独立钟楼。"
+                    android:textSize="15dp"
+                    />
+                <TextView
+                    android:textSize="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="     来大本钟坐地铁很方便。可乘坐地铁Jubliee Line（灰线）、Circle Line（黄线）或
+District Line（绿线）到Westminster站。不过一出地铁站我就被眼前的人山人海震惊了，太久没有见过这么多人了，像长城一样吓死了。"
+                    android:layout_margin="10dp"
+                    />
+
+
+                <ImageView
+                    android:layout_margin="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/tour41"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:text="     大本钟的对面就是西斯敏教堂，是英国地位最高的教堂之一，也是历代英国国王加冕、安葬及王室成员举行婚礼的地方。牛顿（Isaac Newton）、狄更斯（Charles Dickens）、达尔文（Charles Darwin）等很多名人都安葬于此。作为哥特式建筑的代表，教堂富丽堂皇、庄严静谧，阳光透过彩绘玻璃在教堂内"
+                    android:layout_margin="10dp"
+                    />
+                <ImageView
+                    android:layout_margin="10dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/tour42"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:text="     骑兵阅兵场是每年举行女王生日等重要官方仪式的地方，也是英国军 方总部的所在地，举行仪式时的高头大马和披着红色战袍雄赳赳的骑兵 绝对是一道独特的英伦风景。"
+                    android:layout_margin="10dp"
+                    />
+                <ImageView
+                    android:layout_margin="10dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/tour43"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:text="     从阅兵场再继续往北走就是特拉法加广场了。很多大型活动的举办地，虽然不如大本钟等建筑被国人所熟知，但这里却深受伦敦本地人和游客的喜爱，并曾出现在无数以伦敦为背景的影视作品中。广场中心矗立着高达五十多米的纪念碑，底座由四尊巨大的石狮护卫，边上的两个大型喷水"
+                    android:layout_margin="10dp"
+                    />
+                <ImageView
+                    android:layout_margin="10dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/tour44"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:text="    国家美术馆就在广场一侧，，收藏有两千多件美术精品，涵盖了欧洲艺术史上几乎所有时期的典型代表作，梵高、莫奈、塞尚、达芬奇等人的画作在这里都可以见到。即使对美术了解不多，参观这座独特的美术殿堂也能非常直观地体会到艺术的无国界和震撼力。除此以外，正门的露台还是俯瞰特拉法加广场的最佳角度。免费参观。"
+                    android:layout_margin="10dp"
+                    />
+                <ImageView
+                    android:layout_margin="10dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/tour45"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:text="     摩天轮在人们的心中好像一直是幸福的象征，在伦敦坐一次伦敦眼更是无比梦幻的一件事了吧。坐落在泰晤士河畔，给古老的伦敦带来了活力。这里是俯瞰伦敦最好的地方了吧，所以我觉得傍晚黄昏来会很美。可惜这个时节的欧洲十点以后才会天黑。
+我们是没有提前在网上买票于是要去现场排队买票，对物质庞大着实吓了我一跳！我差一点就放弃伦敦眼了。成人票一人24.95磅，伦敦眼一圈是半个小时左右，但是每个舱内都可以容纳十人左右所以其实队伍走的还是很快的，我们前面当时至少有两百多人吧，半个小时不到就轮到我们了。摩天轮走得很慢，有充足的时间欣赏360度的伦敦，大本钟，国会大厦，伦敦塔桥是最醒目的标志，还有碎片大厦等一系列的现代建筑高耸云端，泰晤士河像一道新旧的分割线一样。伦敦如此多元化的城市各文化很好地融合在一起。"
+                    android:layout_margin="10dp"
+                    />
+                <ImageView
+                    android:layout_margin="10dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/tour46"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:layout_margin="10dp"
+                    android:text="      大英博物馆一进门的the great court，非常震撼的穹顶，像是一张把历史都编织进去的网" />
+
+                <ImageView
+                    android:layout_margin="10dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/tour47"
+                    />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:text="     这个车站内部真的是惊到我了，把结构可以去做到这般美轮美奂也是太厉害了。"
+                    android:layout_margin="10dp"
+                    />
+                <ImageView
+                    android:layout_margin="10dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/tour48"
+                    />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:text="     伦敦最值得参观的两个教堂之一，附近为伦敦的金融区The City。圣保罗教堂是巴洛克风格建筑的代表，其圆形屋顶尤其壮观，是世界第二大圆顶教堂，英国第一大教堂。英国著名建筑师Sir Chris Wren呕心沥血45年才全部建设完成。1981年英国王子"
+                    android:layout_margin="10dp"
+                    />
+                <ImageView
+                    android:layout_margin="10dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/tour49"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:text="     再见了大腐国~"
+                    android:layout_margin="10dp"
+                    />
+                <ImageView
+                    android:layout_margin="10dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/tour50"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:text="         在伦敦一定要买一张oyster card公交卡，非常合算
+    如果是来之前在网上买的火车票可以选择自己打印的就选择自己打印，如果要来英国的火车站取票的话一定要带好自己当是付钱的那张卡
+    在爱丁堡坐公交车可以选择买天票，一个人4镑，不然单程一个人1.6镑不划算。而且买票一定要是正好的零钱，不然你不怕花钱你给他五镑他坚决不收也不让你上车的
+    爱丁堡。。。冷！！！"
+                    android:layout_margin="10dp"
+                    />
+            </LinearLayout>
+        </com.example.page2.GoTopScrollView>
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/top"
+        android:background="#00000000"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@drawable/return_top"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="300dp"
+        android:visibility="gone"
+        />
+</FrameLayout>
